@@ -4,6 +4,18 @@ SVG images of lightgun controllers showing controls for **Batocera Linux**.
 
 ## Color codes for each lightgun
 
+### AE lightgun
+| Color name | RGBA |
+|-----------|------|
+| Black    | `#333333FF` |
+| Grey     | `#C8B7B7FF` |
+
+### Aimtrack
+| Color name | RGBA |
+|-----------|------|
+| Grey    | `#CCCCCCFF` |
+| Red     | `#D35F5FFF` |
+
 ### GunCon 2
 | Color name | RGBA |
 |-----------|------|

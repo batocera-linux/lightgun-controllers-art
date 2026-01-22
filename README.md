@@ -1,23 +1,45 @@
 # lightgun-controllers
-lightgun controllers svg images showing controls for batorcera linux
 
-### Color codes in RBVA for each lightgun
-guncon2 :
-    blue        7785ccff
-    white       ffffffff
+SVG images of lightgun controllers showing controls for **Batocera Linux**.
 
-guncon3 :
-    orange      ff9955ff
-    dark orange ba6b33ff
-    light grey  e3dbdbff
-    grey        ac9393ff
+## Color codes for each lightgun
 
-sinden :
-    red         fff6d5ff
-    cream       ed5555ff
+### AE lightgun
+| Color name | RGBA |
+|-----------|------|
+| Black    | `#333333FF` |
+| Grey     | `#C8B7B7FF` |
 
-xgunner :
-    khaki green 7a857aff
-    light khaki b3b9b3ff
-    orange      ff9600ff
-    dark orange cd7900ff
+### Aimtrack
+| Color name | RGBA |
+|-----------|------|
+| Grey    | `#CCCCCCFF` |
+| Red     | `#D35F5FFF` |
+
+### GunCon 2
+| Color name | RGBA |
+|-----------|------|
+| Blue      | `#7785CCFF` |
+| White     | `#FFFFFFFF` |
+
+### GunCon 3
+| Color name   | RGBA |
+|-------------|------|
+| Orange      | `#FF9955FF` |
+| Dark orange | `#BA6B33FF` |
+| Light grey  | `#E3DBDBFF` |
+| Grey        | `#AC9393FF` |
+
+### Sinden
+| Color name | RGBA |
+|-----------|------|
+| Red       | `#FFF6D5FF` |
+| Cream    | `#ED5555FF` |
+
+### XGunner
+| Color name   | RGBA |
+|-------------|------|
+| Khaki green | `#7A857AFF` |
+| Light khaki | `#B3B9B3FF` |
+| Orange      | `#FF9600FF` |
+| Dark orange | `#CD7900FF` |

@@ -43,3 +43,6 @@ SVG images of lightgun controllers showing controls for **Batocera Linux**.
 | Light khaki | `#B3B9B3FF` |
 | Orange      | `#FF9600FF` |
 | Dark orange | `#CD7900FF` |
+
+# Contributors
+Initial work by Antoine Rochat

@@ -44,5 +44,8 @@ SVG images of lightgun controllers showing controls for **Batocera Linux**.
 | Orange      | `#FF9600FF` |
 | Dark orange | `#CD7900FF` |
 
+# Command to generate png from svg
+for i in $(ls svg | sed -e s+'\.svg'++); do convert -background none svg/$i.svg -resize 1000x1000 png/$i.png ; done
+
 # Contributors
 Initial work by Antoine Rochat

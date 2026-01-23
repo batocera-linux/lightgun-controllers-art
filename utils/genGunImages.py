@@ -84,7 +84,7 @@ def gun_help_replace(text, replacements):
     return res
 
 if len(sys.argv) != 4:
-    print("{} <input.svg> <output.png> <font.ttf>".format(sys.argv[0]))
+    print("{} <input.png> <output.png> <font.ttf>".format(sys.argv[0]))
     exit(1)
 
 input  = sys.argv[1]
@@ -102,7 +102,7 @@ replacements = {
     "<D-PAD>": "D-PAD",
 }
 
-with open(input+".info", "r", encoding="utf-8") as file:
+with open((input[0:-4]+".infos").replace("/png/", "/infos/"), "r", encoding="utf-8") as file:
     data = json.load(file)
 
     # replace data in texts

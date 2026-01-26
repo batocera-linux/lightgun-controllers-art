@@ -33,8 +33,8 @@ SVG images of lightgun controllers showing controls for **Batocera Linux**.
 ### Sinden
 | Color name | RGBA |
 |-----------|------|
-| Red       | `#FFF6D5FF` |
-| Cream    | `#ED5555FF` |
+| Red       | `#ED5555FF` |
+| Cream    | `#FFF6D5FF` |
 
 ### XGunner
 | Color name   | RGBA |

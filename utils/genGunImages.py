@@ -93,13 +93,16 @@ ttf    = sys.argv[3]
 
 replacements = {
     "<TRIGGER>": "TRIGGER",
-    "<ACTION>": "ACTION",
-    "<START>": "START",
-    "<SELECT>": "SELECT",
-    "<SUB1>": "SUB1",
-    "<SUB2>": "SUB2",
-    "<SUB3>": "SUB3",
-    "<D-PAD>": "D-PAD",
+    "<ACTION>":  "ACTION",
+    "<START>":   "START",
+    "<SELECT>":  "SELECT",
+    "<SUB1>":    "SUB1",
+    "<SUB2>":    "SUB2",
+    "<SUB3>":    "SUB3",
+    "<UP>":      "UP",
+    "<DOWN>":    "DOWN",
+    "<LEFT>":    "LEFT",
+    "<RIGHT>":   "RIGHT",
 }
 
 with open((input[0:-4]+".infos").replace("/png/", "/infos/"), "r", encoding="utf-8") as file:
